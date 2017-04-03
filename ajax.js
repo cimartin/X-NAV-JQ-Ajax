@@ -6,7 +6,7 @@ $(document).ready(function() {
     }).done(function(text){
       $("#second").html(text);
     });
-    $("#second").clcik(function(){
+    $("#second").click(function(){
       $.ajax({
         type:"GET",
         url: "text1.txt",
@@ -28,3 +28,4 @@ $(document).ready(function() {
       $("#fiveth").html("error al coger text");
     });
   });
+});
